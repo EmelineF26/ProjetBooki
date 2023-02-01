@@ -1,12 +1,13 @@
-.img {
-    width: 80px;
-    height: auto;
+@media (min-width: 992px) and (max-width: 1400px)
+{
+    .img {
+        width: 80px;
+        height: auto;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-    max-width: 1400px;
 }
 
 .navbar {
@@ -304,7 +305,7 @@ li {
 .titreboxmostpopular {
     font-size: 22px;
     font-weight: bold;
-    margin-left: 22px;
+    margin: 15px 0px 0px 22px;
 }
 
 .etoilesmostpopular {
@@ -324,7 +325,7 @@ li {
 
 .fa-chart-line {
     color:#0065fc;
-    margin-right: 20px;
+    margin: 15px 20px 0px 0px;/* Haut Droite Bas Gauche */
 }
 
 .imageactivite {
@@ -334,7 +335,8 @@ li {
 .titreactivites {
     font-size: 16px;
 	font-weight: bold;
-    margin-left: 19px;
+    /*margin-left: 19px;*/
+    margin: 11px 0px 0px 19px;/* Haut Droite Bas Gauche */
 }
 
 #Activites {
@@ -373,4 +375,12 @@ li {
     flex-direction: column;
     margin: 50px 200px 0px 50px;/* Haut Droite Bas Gauche */
     line-height: 2;
+}
+}
+
+/*Media querries tablette*/
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+
 }
