@@ -1,13 +1,12 @@
-@media (min-width: 992px) and (max-width: 1400px)
-{
-    .img {
+.img {
         width: 80px;
         height: auto;
     }
 
     body {
         font-family: 'Raleway', sans-serif;
-        box-sizing: border-box;
+        max-width: 1400px;
+        margin : auto;
     }
 
     .navbar {
@@ -358,8 +357,6 @@
 
     .footer {
         background: #F2F2F2;
-        height: 225px;
-        width: 1339px;
         left: 48px;
         margin-top: 50px;
         display: flex;
@@ -374,10 +371,9 @@
     .footerbloc {
         display: flex;
         flex-direction: column;
-        margin: 50px 200px 0px 50px;/* Haut Droite Bas Gauche */
+        margin: auto;
         line-height: 2;
     }
-}
 
 /*Media querries tablette*/
 
