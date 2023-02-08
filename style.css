@@ -1,4 +1,9 @@
-.img {
+* {
+    margin: 0;
+    padding: 0; 
+    }
+    
+    .img {
         width: 80px;
         height: auto;
     }
@@ -7,10 +12,12 @@
         font-family: 'Raleway', sans-serif;
         max-width: 1400px;
         margin : auto;
+        box-sizing: border-box;
     }
 
     .navbar {
         display: flex;
+        padding: 20px 0;
     }
 
     .nav-link:hover {
@@ -33,7 +40,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-bottom: 50px;
     }
 
     ul {
@@ -299,7 +305,6 @@
 
     .imagemostpopular {
         height: 144px;
-        box-sizing: border-box;
         border-radius: 20px 0px 0px 20px;
     }
 
@@ -349,7 +354,6 @@
     #Activites {
         display: flex;
 	    justify-content: space-between;
-        object-fit: cover;
         width: 100%;
         height: 389px;
         border-radius: 20px 20px 0 0
@@ -362,6 +366,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        object-fit: cover;
     }
 
     .link-box {
