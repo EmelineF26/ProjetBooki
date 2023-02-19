@@ -324,13 +324,14 @@
 
     .titremostpopular {
         font-size: 16px;
-	    font-weight: 700;
-        line-height: 19px;
-        margin: 12px 0px 0px 20px; /* Haut Droite Bas Gauche */
+	    font-weight: 600;
+        line-height: 18px;
+        margin: 12px 0px 0px 6px; /* Haut Droite Bas Gauche */
         margin-bottom: 0px;
     }
 
     .imagemostpopular {
+        width: 137px;
         height: 144px;
         border-radius: 20px 0px 0px 20px;
     }
@@ -339,7 +340,7 @@
         font-size: 14px;
 	    font-weight: normal;
         line-height: 16px;
-        margin: 10px 0px 0px 20px; /* Haut Droite Bas Gauche */
+        margin: 10px 0px 0px 6px; /* Haut Droite Bas Gauche */
     }
 
     .titreboxmostpopular {
@@ -349,9 +350,10 @@
     }
 
     .etoilesmostpopular {
-        margin: auto 0px 3px 20px; /* Haut Droite Bas Gauche */
-        width: 75px;
-        height: 18px;
+        margin: auto 0px 5px 10px; /* Haut Droite Bas Gauche */
+        font-size: 12px;
+        /*width: 75px;
+        height: 18px;*/
     }
 
     .bloc1 {
@@ -364,10 +366,10 @@
 
     .fa-chart-line {
         color:#0065fc;
-        display: table-cell;
-		vertical-align: middle;
-        margin-right: 20px;
-        /*margin: 15px 20px 0px 0px;*/ /* Haut Droite Bas Gauche */
+        /*display: table-cell;
+		vertical-align: middle;*/
+        /*margin-right: 20px;*/
+        margin: 20px 20px 0px 0px; /* Haut Droite Bas Gauche */
     }
 
     .imageactivite {
