@@ -6,13 +6,18 @@
 
     .wrapper {
         max-width: 1440px;
-        width: 100%;
+        /*width: 100%;*/
         margin: 0 auto;
     }
 
     .img {
         width: 80px;
         height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
 
@@ -38,13 +43,11 @@
         justify-content: center;
         align-items: flex-end;*/
         width: 106%;
-        /*padding-top: 20px;*/
         padding: 31px 33px 0px 33px;
         border-top: 3px solid white;
     }
 
     .nav-link:hover {
-        /*padding-top: 20px;*/
         border-top: 3px solid rgba(0, 101, 252, 1);
         color: #0065fc;
     }
@@ -293,6 +296,8 @@
     }
 
     .box {
+        max-width: 1440px;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
     }
@@ -301,7 +306,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-bottom: 26px;
+        padding-bottom: 10px;
     }
 
     .titreboxmostpopular {
@@ -314,14 +319,12 @@
         background-color: #F2F2F2;
         border-radius: 20px;
         height: 626px;
-        width: 89%;
-        margin: 30px 5px 50px 30px; /* Haut Droite Bas Gauche */
+        width: 100%;
+        margin: 30px 0px 50px 30px; /* Haut Droite Bas Gauche */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        padding-left: 5px; /* 1.5px */
-        padding-right: 5px; /* 1.5px */
     }
 
     #MostPopular>*:first-child {
@@ -355,8 +358,9 @@
 
     .imagemostpopular {
         width: 137px;
-        height: 144px;
+        height: 100%;
         border-radius: 20px 0px 0px 20px;
+        /*overflow: hidden;*/
     }
 
     .prixmostpopular {
@@ -373,8 +377,6 @@
 
     .fa-chart-line {
         color:#0065fc;
-        /*display: table-cell;
-		vertical-align: middle;*/
         margin: 20px 20px 0px 0px; /* Haut Droite Bas Gauche */
     }
 
@@ -469,7 +471,9 @@
 
 .bloc1 {
     padding-bottom: 0px;
-    width: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .titreboxmostpopular {
@@ -477,7 +481,7 @@
     margin-bottom: 0px;
     /*width: 50px;*/
     height: 38px;
-    padding-left: 8px;
+    padding-left: 15px;
     padding-top: 7px;
 }
 
@@ -509,6 +513,7 @@
 
 .fa-chart-line {
     margin-right: 0px;
+    padding-top: 9px;
 }
 
 .box1 {
