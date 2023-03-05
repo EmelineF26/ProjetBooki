@@ -8,6 +8,8 @@
         max-width: 1440px;
         /*width: 100%;*/
         margin: 0 auto;
+        padding-right: 3px;
+        padding-left: 3px;
     }
 
     .img {
@@ -225,7 +227,7 @@
 
     #MarseilleAccomodations {
         width: 66%;
-        /*height: 626px;*/
+        height: 626px;
         margin: 28px 4px 79px 0px; /* Haut Droite Bas Gauche */
 	    display: flex;
 	    justify-content: space-between;
@@ -255,7 +257,6 @@
     }
 
     .infos_hebergements >.link-box {
-        /*width: 20%;*/
         min-width: 340px;
     }
 
@@ -323,7 +324,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly
+        /*justify-content: space-evenly;*/
     }
 
     #MostPopular>*:first-child {
@@ -559,7 +560,9 @@
 .box2 {
     margin-top: 165px;
 }
+
 }
+
 
 @media screen and (max-width: 768px) {
 .wrapper {
@@ -598,6 +601,11 @@ body {
     border-top: 3px solid transparent;
 }
 
+.titre1 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
 .titrefiltres {
     text-align: center;
     line-height: 21px;
@@ -609,7 +617,7 @@ body {
     padding-top: 46px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 92%;
 }
 
 .filtre {
@@ -631,6 +639,73 @@ body {
 
 .box {
     display: flex;
-    flex-direction: column;
+    flex-flow: column-reverse nowrap;
+    margin-top: 64%;
+    padding-right: 4px;
+    padding-left: 4px;
 }
+
+#MarseilleAccomodations {
+    margin-top: 0px;
+}
+
+#MostPopular {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    height: 622px;
+}
+
+.cardsmostpopular {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 59%;
+}
+
+.boxmostpopular {
+    height: 150px;
+    width: 72%;
+    margin-top: 0px;
+}
+
+.imagemostpopular {
+    width: 68%;
+}
+
+.textmostpopular {
+    margin-left: 13px;
+}
+
+.titremostpopular {
+    font-size: 19px;
+}
+
+.prixmostpopular {
+    font-size: 15px;
+}
+
+.box2 {
+    margin-top: 8%;
+}
+
+#Activites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.boxactivites {
+    width: 92%;
+    height: 265px;
+}
+
+/*.imageactivite {
+    margin-left: 8px;
+    object-fit: cover;
+}*/
+
 }
