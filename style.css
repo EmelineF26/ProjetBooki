@@ -617,6 +617,14 @@ body {
     margin-top: 10px;
 }
 
+.search {
+    width: 15%;
+}
+
+.formulaire {
+    width: 85%;
+}
+
 .titrefiltres {
     text-align: center;
     line-height: 21px;
