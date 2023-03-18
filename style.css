@@ -255,7 +255,12 @@
     .imageappart {
         border-radius: 20px 20px 0px 0px;
         width: 100%;
-        height: 110px;
+        height: 100%;
+    }
+
+    .imgappartcontainer {
+        width: 100%;
+        height: 124px;
     }
 
     .infos_hebergements {
@@ -267,13 +272,14 @@
 
     .link-box {
         flex-grow: 1;
+        flex-basis: 235px;
     }
 
     .infos_hebergements >.link-box {
         min-width: 340px;
     }
 
-    .infos_hebergements > div{
+    .infos_hebergements > div:not(.imgappartcontainer){
         padding: 0 7px; 
     }
 
@@ -380,9 +386,15 @@
     }
 
     .imagemostpopular {
-        width: 137px;
+        width: 100%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
+    }
+
+    .imgmostpopular {
+        height: 140px;
+        width: 137px;
+        flex-shrink: 0;
     }
 
     .prixmostpopular {
@@ -673,8 +685,8 @@ main.wrapper {
     /*max-width: 340px;*/
 }
 
-.imagemostpopular {
-    width: 68%;
+.imgmostpopular {
+    width: 40%;
 }
 
 .textmostpopular {
@@ -691,8 +703,6 @@ main.wrapper {
 
 .titrebox {
     font-size: 24px;
-    display: flex;
-    justify-content: center;
     padding-right: 50px;
 }
 
@@ -707,10 +717,17 @@ main.wrapper {
 
 .appartement {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     gap: 12px;
 }
+
+/*.link-box {
+    flex-basis: auto;
+    width: 100%;
+}*/
+
+/*Lignes à réactiver pour passer en colonne : 720, 725 à 728*/
 
 .infos_hebergements {
     height: 202px;
