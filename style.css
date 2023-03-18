@@ -240,9 +240,10 @@
     }
 
     #MarseilleAccomodations {
-        width: 66%;
 	    display: flex;
         flex-direction: column;
+        flex-grow: 1;
+        flex-shrink: 1;
         background-color: #F2F2F2;
         border-radius: 20px;
         gap: 20px;
@@ -285,6 +286,7 @@
 
     .infos_hebergements > div:not(.imgappartcontainer){
         padding: 0 7px; 
+        margin-top: 7px;
     }
 
     .titrehebergement {
@@ -345,12 +347,15 @@
     #MostPopular {
         background-color: #F2F2F2;
         border-radius: 20px;
-        width: 34%;
+        width: 340px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 25px;
         padding: 30px 40px;
+        flex-grow: 2;
+        flex-shrink: 0;
     }
 
     #MostPopular>*:first-child {
@@ -450,6 +455,7 @@
         display: flex;
         flex-direction: column;
         flex-grow: 1;
+        flex-basis: 180px;
     }
 
     .titre5 {
@@ -513,6 +519,7 @@
     width: 99%;
     margin-top: 3px;
     margin-left: 0px;
+    max-width: none;
 }
 
 .titremostpopular {
@@ -558,6 +565,7 @@
 
 }
 
+/*Média querries téléphone*/
 
 @media screen and (max-width: 768px) {
 .wrapper {
@@ -640,6 +648,7 @@ body {
 .filtre {
     width: 47%;
     margin-top: 4px;
+    gap: 8px;
 }
 
 .nomfiltre {
@@ -659,7 +668,7 @@ body {
     padding-left: 4px;*/
 }
 
-main.wrapper {
+main.wrapper, footer.wrapper {
     padding: 0px;
 }
 
@@ -691,6 +700,7 @@ main.wrapper {
 
 .imgmostpopular {
     width: 40%;
+    height: 142px;
 }
 
 .textmostpopular {
@@ -760,7 +770,7 @@ main.wrapper {
 }
 
 .imageactivite {
-    height: 255px;
+    height: 140px;
 }
 
 .boxactivites {
