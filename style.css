@@ -725,8 +725,8 @@ main.wrapper, footer.wrapper {
     margin-top: 0px;
     display: flex;
     flex-direction: column;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: white;
 }
 
@@ -766,7 +766,8 @@ main.wrapper, footer.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 13px;
 }
 
@@ -775,7 +776,7 @@ main.wrapper, footer.wrapper {
 }
 
 .boxactivites {
-    width: 92%;
+    width: 100%;
 }
 
 .titlebox {
